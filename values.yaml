@@ -1,6 +1,7 @@
 component:
   service: nginx
   version: 1.14.2
-  image: nginx
+  registry: cduggan123
+  repo: nginx-dummy-app
   replicas: 3
   containerPort: 80

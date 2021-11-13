@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: {{ .Values.component.service }}
-        image: {{ .Values.component.image }}:{{ .Values.component.version }}
+        image: {{ .Values.component.registry }}/{{ .Values.component.repo }}:{{ .Values.component.version }}
         ports:
         - containerPort: {{ .Values.component.containerPort }}
