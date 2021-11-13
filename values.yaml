@@ -2,5 +2,5 @@ component:
   service: nginx
   version: 1.14.2
   image: nginx
-  replicas: 2
+  replicas: 3
   containerPort: 80
