@@ -6,7 +6,9 @@ I have just wrapped the official nginx Docker image into my own Docker image, fo
 
 ## Building the Docker image
 1. `docker build -t cduggan123/nginx-dummy-app:1.14.2`
-2. `docker push cduggan123/nginx-dummy-app:1.14.2`
+
+## Publishing the Docker image to Docker Hub
+1. `docker push cduggan123/nginx-dummy-app:1.14.2`
 
 ## Building the Helm artifact
 1. Move back up a directory, outside of the project dir.
